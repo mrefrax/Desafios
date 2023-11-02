@@ -8,15 +8,22 @@
 
 <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&display=swap');
+
 body{
 
     background-color: #ffe4c4;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 div.ground{
 
     background-color: #ffffff;
-    width: 700px;
+    width: 400px;
     border-radius: 15px;
     margin: auto;
 }
@@ -24,9 +31,63 @@ div.ground{
 img{
 
     width: 400px;
-    display: flex;
-    align-items: baseline;
-    border-radius: 10px 0px 0px 10px;
+    height: 390px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1{
+
+    font-size: 1.8em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    color: #cecdcd;
+    margin: 1%;
+}
+
+h2{
+
+    padding-left: 2%;
+    font-size: 3em;
+}
+
+p{
+
+    padding-left: 4%;
+    color: rgb(192, 187, 187);
+    font-size: 14px;
+}
+
+div.valor{
+
+    margin: 2%;
+    color: #135513;
+    font-weight: bolder;
+    font-size: 2em;
+    font-family: 'Fraunces', serif;
+}
+
+div.val{
+
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.add{
+
+    background-color: #064906d7;
+    padding: 2%;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+a{
+
+    color: #ffffff;
 }
 
 </style>
@@ -35,8 +96,23 @@ img{
 <body>
 
     <div class="ground">
-         <img src="images/image-product-desktop.jpg">
-    </div>
+         <img src="images/image-product-mobile.jpg">
+         <h1>PERFUME</h1>
+          <h2> Gabrielle Essence Eau De Parfum</h2>
+
+            <p>
+                A floral, solar and voluptuous interpretation composed by Olivier Polge,
+                Perfumer-Creator for the House of CHANEL.
+            </p>
+          
+           <div class="valor"> $149.99</div>
+           <div class="val"><del>$169.99</del></div>
+
+           <div class="add"> <a href="#">
+            Add to Cart</a></div>
+     <div class="per">
+        
+     
 
 </body>
 </html>
