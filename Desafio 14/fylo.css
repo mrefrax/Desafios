@@ -11,33 +11,6 @@
 }
 
 
-@media screen {
-    
-    .yours{
-
-        width: 100%;
-    }
-}
-
-
-@media screen {
-    
-    .get{
-
-        width: 100%;
-    }
-}
-
-
-@media screen {
-
-    footer{
-
-        width: 100%;
-        padding: 0%;
-    }
-}
-
 body{
 
     font-family: 'Raleway', sans-serif;
