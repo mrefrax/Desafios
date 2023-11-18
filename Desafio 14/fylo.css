@@ -2,9 +2,46 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+@media screen {
+
+    .illu{
+
+        width: 50%;
+    }
+}
+
+
+@media screen {
+    
+    .yours{
+
+        width: 100%;
+    }
+}
+
+
+@media screen {
+    
+    .get{
+
+        width: 100%;
+    }
+}
+
+
+@media screen {
+
+    footer{
+
+        width: 100%;
+        padding: 0%;
+    }
+}
+
 body{
 
     font-family: 'Raleway', sans-serif;
+    m
 }
 
 #container{
@@ -17,8 +54,8 @@ body{
 
     margin-top: 100px;
     width: 100px;
-    margin-right: 60%;
-    margin-left: 5%;
+    margin-right: 15%;
+    margin-left: 2%;
 }
 
 .fe{
@@ -56,12 +93,11 @@ body{
     font-weight: bold;
 }
 
-
 .illu{
 
-    width: 400px;
     
 }
+
 
 input{
 
@@ -157,8 +193,6 @@ hr{
 .get{
 
     background-color: hsl(238, 22%, 44%);
-    width: 100vw;
-    height: 260px;
     margin-top: 4%;
 }
 
@@ -187,8 +221,6 @@ hr{
 footer{
 
     background-color: hsl(243, 87%, 12%);
-    width: 100vw;
-    height: 250px;
 }
 
 footer > p {
