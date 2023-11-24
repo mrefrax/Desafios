@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+html{
+    height: 100vh;
+    
+}
+.container1{
+    background-color: rgb(255, 244, 231);
+    width: 340px;
+    height: 905px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#container2{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.para1{
+    margin-left: 10px;
+    background-image: linear-gradient(to right, hsl(25, 86%, 60%), hsl(337, 63%, 62%));
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    width: 110px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.cores1{
+    margin-top: 70px;
+    margin-left: 40px;
+    width: 220px;
+}
+
+.cores2{
+    transform: translate(50px, -260px);
+    width: 200px;
+}
+
+.cores3{
+    transform: translate(45px, -480px);
+    width: 200px;
+}
+
+.hero{
+    transform: translate(40px, -710px);
+    width: 200px;
+}
+
+.perto{
+    transform: translate(0px, -680px);
+    margin-left: 20px;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.para2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 78, 78);
+}
+
+input{
+    width: 270px;
+    padding: 17px;
+    border: 0px;
+}
+
+::placeholder{
+    color: rgb(92, 92, 92);
+}
+
+button{
+    margin-top: 10px;
+    width: 304px;
+    padding: 17px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgb(84, 84, 255);
+    color: #ffffff;
+}
+
+.check{
+    margin-top: 5px;
+    width: 20px;
+}
+
+#container3{
+    display: flex;
+    align-items: center;
+}
+
+.para3{
+    margin-top: 20px;
+    margin-left: 8px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 78, 78);
+}
+
+#container4{
+    display: flex;
+    align-items: center;
+}
+
+.para4{
+    margin-left: 10px;
+    color: rgb(78, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#container5{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.avatar{
+    width: 40px;
+}
+
+.para5{
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.para6{
+    margin: 0px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
