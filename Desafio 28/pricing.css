@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 1200px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+nav > a:hover{
+    color: rgb(44, 44, 44);
+}
+
+.para1{
+    margin-left: 440px;
+    font-weight: bold;
+    background-color: rgb(27, 27, 128);
+    padding: 15px;
+    width: 140px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.titu1{
+    margin-left: 275px;
+    font-size: 2.5em;
+}
+
+.para2{
+    text-align: center;
+    font-size: 14px;
+    margin-left: 275px;
+    color: rgb(71, 71, 71);
+}
+
+.subscribe{
+    width: 280px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h3{
+    margin: 0px;
+    font-size: 2em;
+    margin-left: 20px; 
+}
+
+.mo{
+    color: rgb(180, 180, 180);
+    margin-top: 30px;
+}
+
+.para3{
+    margin: 0px;
+    color: rgb(71, 71, 71);
+    margin-left: 20px;
+}
+
+hr{
+    width: 240px;
+    border-color: rgba(220, 220, 220, 0.363);
+}
+
+.checkmark{
+    margin-left: 20px;
+}
+
+.para4{
+    margin-left: 10px;
+    color: rgb(71, 71, 71);
+}
+
+.para5{
+    text-align: center;
+    background-color: rgb(27, 27, 128);
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+.now{
+    width: 280px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.h4{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.para6{
+    margin-left: 100px;
+    color: rgb(71, 71, 71);
+}
+
+.para7{
+    margin-left: 180px;
+    font-weight: bold;
+
+}
+
+input[type=email]{
+    padding: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+    width: 250px;
+   margin-left: 180px;
+}
+
+input[type=submit]{
+    transform: translate(-142px, 0px);
+    padding: 14px;
+    border: 0px;
+    background-color: rgb(27, 27, 128);
+    color: hsl(0, 0%, 100%);
+    border-radius: 4px;
+    font-weight: 550;
+    cursor: pointer;
+}
