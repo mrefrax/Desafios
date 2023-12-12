@@ -71,6 +71,7 @@ body{
     padding: 20px 1.5rem;
     border-radius: 70px;
     color: hsl(217, 12%, 63%);
+    cursor: pointer;
 }
 
 .number5:hover{
