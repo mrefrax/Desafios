@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Viaduto:wght@400;500 & display=swap');
+
+body{
+    background-color:  hsl(216, 12%, 8%);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+#container{
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.icon-star{
+    margin: 12px 0px;
+    background-color: hsla(0, 0%, 91%, 0.123);
+    padding: 14px;
+    border-radius: 40px;
+}
+
+.how-did{
+    color: hsl(0, 00%, 100%);
+    font-size: 1.8rem;
+}
+
+.please-let{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.4rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+
+.numbers{
+    margin-right: 14px;
+    background-color: hsla(0, 0%, 91%, 0.123);
+    padding: 20px 1.5rem;
+    border-radius: 70px;
+    color: hsl(217, 12%, 63%);
+}
+
+.number4{
+    margin-right: 14px;
+    background-color: hsla(0, 0%, 91%, 0.123);
+    padding: 20px 1.5rem;
+    border-radius: 70px;
+    color: hsl(217, 12%, 63%);
+}
+
+.number4:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 00%, 100%);
+}
+
+.number5{
+    margin-right: 14px;
+    background-color: hsla(0, 0%, 91%, 0.123);
+    padding: 20px 1.5rem;
+    border-radius: 70px;
+    color: hsl(217, 12%, 63%);
+}
+
+.number5:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 00%, 100%);
+}
+
+button{
+    margin-top: 20px;
+    width: 335px;
+    padding: 15px;
+    border-radius: 40px;
+    border: 0px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 00%, 100%);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 00%, 100%);
+}
+
+a:hover{
+    color: hsl(25, 97%, 53%);
+}
+
+button:hover{
+    background-color: hsl(0, 00%, 100%);
+    color: hsl(25, 97%, 53%);
+
+}
