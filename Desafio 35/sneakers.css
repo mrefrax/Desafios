@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? família= Kumbh+Sans:wght@400;700 & display=swap');
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#container{
+    background-color: hsl(0, 00%, 100%);
+    width: 1200px;
+    margin: auto;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 70px;
+    margin-right: 50px;
+    width: 90px;
+}
+
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 50%);
+    font-size: 14px;
+}
+
+.icon-cart{
+    margin-left: 400px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.image-avatar{
+    margin-left: 40px;
+    width: 40px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-left: 70px;
+    border-color: rgba(192, 192, 192, 0.123);
+    width: 990px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-product-1{
+    margin-left: 100px;
+    margin-top: 70px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.image-product-2{
+    width: 100px;
+    margin-top: 40px;
+    margin-right: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.sneaker-company{
+    margin-left: 50px;
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+}
+
+.fall-limited{
+    margin-left: 50px;
+}
+
+.these-low-profile{
+    margin-left: 50px;
+    color: hsl(0, 0%, 50%);
+}
+
+.num{
+    display: flex;
+    align-items: center;
+}
+
+.number125{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.number50{
+    margin-left: 15px;
+    background-color: hsla(34, 91%, 49%, 0.164);
+    padding: 4px;
+    border-radius: 5px;
+    color: hsl(26, 100%, 55%);
+    font-weight: 600;
+    margin-top: 10px;
+    width: 40px;
+    text-align: center;
+}
+
+.number250{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 20px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+}
+
+.zero{
+    margin-left: 50px;
+    background-color: hsla(0, 0%, 74%, 0.226);
+    width: 70px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+button{
+    margin-left: 10px;
+    padding: 10px;
+    width: 190px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 00%, 100%);
+    cursor: pointer;
+}
+
+.cart{
+    width: 15px;
+    margin-right: 7px;
+    color: hsl(0, 00%, 100%);
+}
