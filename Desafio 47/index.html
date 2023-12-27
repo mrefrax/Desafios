@@ -11,10 +11,7 @@
   <title>Frontend Mentor | Multi-step form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
 
@@ -24,14 +21,14 @@
     <div class="step">
 <div class="top">
         <div class="align">
-          <a href="index.html"><button class="num">1</button></a>
+          <a href="#"><button class="num">1</button></a>
           <div class="column">
            <span class="ste">STEP 1</span>
            <span class="info">YOUR INFO</span>
           </div>
         </div>
         <div class="align">
-          <a href="two.html"><button class="num">2</button></a>
+          <a href="#"><button class="num">2</button></a>
           <div class="column">
             <span class="ste">STEP 2</span>
             <span class="info">SELECT PLAN</span>
@@ -61,7 +58,7 @@
       
         <h1 class="personal">Personal info</h1>
         <p class="please">Please provide your name, email address, and phone number.</p>
-      <form action="#">
+      <form action="two.html" method="post" autocomplete="on">
           <label class="label" for="iname">Name</label>
           <br>
           <input class="input" type="text" name="name" id="iname" placeholder="e.g. Stephen King" required></input>
@@ -72,10 +69,10 @@
           <br>
           <label class="label" for="iphone">Phone Number</label>
           <br>
-          <input class="input" type="number" name="number" id="iphone" placeholder="e.g. +1 234 567 890" readonly></input>
+          <input class="input" type="tel" name="tel" id="iphone" placeholder="e.g. +1 234 567 890" readonly></input>
           <br>
-           <a href="two.html"><button class="btn">Next Step</button></a>
       </form>
+      <a href="index2.html"><button class="btn">Next Step</button></a>
     </div>
   </div>
 </div>

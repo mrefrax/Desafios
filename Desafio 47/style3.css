@@ -80,107 +80,124 @@ body{
     letter-spacing: 1px;
 }
 
-.plan{
+.pick-add-ons{
     margin-left: 90px;
-    display: flex;
-    flex-direction: column;
 }
 
-.select{
+.pick{
+    margin-top: auto;
     color: hsl(213, 96%, 18%);
     margin-bottom: 8px;
-    font-size: 2rem;
 }
 
-.you-have{
+.help{
     margin-top: 0px;
     color: hsl(231, 11%, 63%);
 }
 
-.border{
+.borr{
     border: 1px solid hsl(229, 24%, 87%);
-    border-radius: 7px;
-    margin-right: 10px;
-    margin-top: 30px;
-    width: 120px;
+    padding: 5px;
     padding-top: 20px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    cursor: pointer;
-}
-
-.border:active{
-    border: 1px solid hsl(213, 96%, 18%);
-    background-color: hsla(228, 100%, 84%, 0.295);
-}
-
-.bordeer{
-    border: 1px solid hsl(229, 24%, 87%);
-    margin-right: 10px;
-    margin-top: 30px;
-    border-radius: 7px;
-    margin-left: 4px;
-    width: 120px;
-    padding-top: 10px;
-    padding-left: 15px;
     padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 450px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
-.bordeer:active{
+.borr:active{
     border: 1px solid hsl(213, 96%, 18%);
     background-color: hsla(228, 100%, 84%, 0.295);
 }
 
-.ico{
+.bor{
+    border: 1px solid hsl(229, 24%, 87%);
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 450px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bor:active{
+    border: 1px solid hsl(213, 96%, 18%);
+    background-color: hsla(228, 100%, 84%, 0.295);
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+input[type=checkbox]{
+    width: 30px;
     
-    margin-bottom: 29px;
+    border-color: hsl(229, 24%, 87%);
 }
 
-.icon{
-    margin-top: 10px;
-    margin-bottom: 22px;
+.column{
+    display: flex;
+    flex-direction: column;
 }
 
-h3{
-    color: hsl(213, 96%, 18%);
-    margin-left: 0px;
-    margin-bottom: 5px;
-}
-
-.value{
-    color: hsl(231, 11%, 63%);
-}
-
-.mo{
-    color: hsl(231, 11%, 63%);
-}
-
-.monthly{
-    margin-top: 35px;
-    width: 418px;
-    background-color: hsl(217, 100%, 97%);
-    padding: 12px;
-    border-radius: 5px;
-}
-
-.mon{
-    margin-left: 120px;
+.online{
+    margin-left: 10px;
     color: hsl(213, 96%, 18%);
     font-weight: bold;
 }
 
-.yearly{
-    margin-left: 70px;
+.acess{
+    margin-left: 10px;
+    margin-top: 5px;
     color: hsl(231, 11%, 63%);
-    font-weight: bold;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.number{
+    margin-left: 130px;
+    color: hsl(243, 100%, 62%);
+}
+
+.barramo{
+    color: hsl(243, 100%, 62%);
+}
+
+.numberr{
+    margin-left: 155px;
+    color: hsl(243, 100%, 62%);
+}
+
+.barramoo{
+    color: hsl(243, 100%, 62%);
+}
+
+.numbe{
+    margin-left: 115px;
+    color: hsl(243, 100%, 62%);
+}
+
+.barram{
+    color: hsl(243, 100%, 62%);
+}
+
+.align{
+    display: flex;
+    align-items: center;
 }
 
 .go-back{
     color: hsl(231, 11%, 63%);
     background-color: transparent;
     border: 0px;
-    margin-top: 140px;
+    margin-top: 100px;
     margin-left: 0px;
     font-size: 0.9rem;
     cursor: pointer;
@@ -192,8 +209,8 @@ h3{
 
 .btn{
     margin-left: 260px;
+    margin-top: 100px;
     width: 100px;
-    margin-top: 140px;
     padding: 12px 20px;
     border: 0px;
     border-radius: 5px;
