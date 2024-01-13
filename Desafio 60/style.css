@@ -6,35 +6,37 @@
     font-family: 'League Spartan', sans-serif;
 }
 
-body{
+main{
+    width: 1440px;
+    margin: auto;
     background-color: hsl(180, 52%, 96%);
+    padding-bottom: 40px;
 }
 
 #fundo{
     background-image: url('images/bg-header-desktop.svg');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
+    background-size: contain;
+    height: 157px;
     background-color: hsl(180, 29%, 50%);
     margin-bottom: 60px;
 }
 
 .cyan{
     background-color: hsl(180, 29%, 50%);
-    width: 50px;
+    width: 10px;
     border-radius: 5px;
-    padding-left: 5px;
-    margin-left: 28%;
+    padding-left: 4px;
+    margin-left: 21%;
 }
 
 .containe{
     background-color: hsl(0, 00%, 100%);
-    margin: auto;
     width: 797px;
     padding: 17px;
-    border-radius: 0px 5px 5px px;
-    box-shadow: 0px 0px 18px hsla(180, 29%, 50%, 0.356);
-    margin-bottom: 10px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 7px 14px hsla(180, 29%, 50%, 0.356);
+    margin-bottom: 15px;
 }
 
 .containe .align{
@@ -166,6 +168,19 @@ body{
     color: hsl(180, 29%, 50%);
 }
 
+.containe .align .info{
+    margin-right: 7px;
+
+    color: hsl(180, 8%, 52%);
+}
+
+.bolinha{
+    background-color: hsl(180, 8%, 52%);
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
 
 .container{
     background-color: hsl(0, 00%, 100%);
@@ -173,8 +188,8 @@ body{
     width: 800px;
     padding: 17px;
     border-radius: 5px;
-    box-shadow: 0px 0px 18px hsla(180, 29%, 50%, 0.356);
-    margin-bottom: 10px;
+    box-shadow: 0px 7px 14px hsla(180, 29%, 50%, 0.356);
+    margin-bottom: 15px;
 }
 
 .container .align{
