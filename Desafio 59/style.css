@@ -29,13 +29,18 @@ body{
     height: 150px;
     background-color: hsl(185, 75%, 39%);
     border-radius: 12px 12px 0px 0px;
+    position: relative;
+}
+
+#container .vict{
+    position: absolute;
+    top: 38%;
+    left: 47%;
 }
 
 #container .avatar{
-    transform: translate(130px, -50px);
     border-radius: 50px;
     border: 4px solid hsl(0, 0%, 100%);
-    display: block;
 }
 
 #container .direction{
@@ -50,6 +55,7 @@ body{
 }
 
 #container .name{
+    margin-top: 65px;
     margin-left: 110px;
 
     font-weight: 700;
@@ -58,6 +64,7 @@ body{
 }
 
 #container .num{
+    margin-top: 65px;
     margin-left: 8px;
     color: hsl(0, 0%, 59%);
 }
