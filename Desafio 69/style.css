@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#container{
+    background-image: linear-gradient(to top, hsl(279, 6%, 55%), hsl(278, 68%, 11%));
+    height: 100vh;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#container .card{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-image: linear-gradient(to left, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+    width: 370px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#container .card .flex{
+    display: flex;
+    flex-direction: column;
+}
+
+#container .card .card-logo{
+    width: 80px;
+    margin-bottom: 50px;
+}
+
+#container .number{
+    margin-left: 10px;
+
+    font-size: 1.8rem;
+    color: hsl(0, 0%, 100%);
+    word-spacing: 8px;
+}
+
+#container .align{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container .name{
+    margin-top: 40px;
+
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#container .cvv{
+    margin-top: 40px;
+
+    color: hsl(0, 0%, 100%);
+}
+
+#container .cardbac{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#container .direction{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 200%;
+}
+
+#container .label{
+    color: hsl(278, 68%, 11%);
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+input[type=text]{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 9px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid hsl(270, 3%, 87%);
+}
+
+.inputnumber{
+    padding: 9px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid hsl(270, 3%, 87%);
+    margin-bottom: 20px;
+}
+
+.inputnu{
+    padding: 9px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid hsl(270, 3%, 87%);
+    margin-right: 10px;
+}
+
+.alin{
+    display: flex;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+}
+
+.labelcvc{
+    margin-left: 20px;
+
+    color: hsl(278, 68%, 11%);
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.numbercvc{
+    padding: 9px;
+    width: 120px;
+    border-radius: 5px;
+    border: 1px solid hsl(270, 3%, 87%);
+    margin-left: 20px;
+}
+
+input[type=button]{
+    margin-top: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(278, 68%, 11%);
+
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+

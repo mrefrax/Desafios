@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <div id="container">
+    <div class="card">
+      <div class="flex">
+        <img class="card-logo" src="images/card-logo.svg" alt="card-logo">
+        <span class="number">0000 0000 0000 0000</span>
+      </div>
+      <div class="align">
+        <h4 class="name">JANE APPLESEED</h4>
+        <span class="cvv">00/00</span>
+      </div>
+    </div>
+
+    <div class="cardbac">
+      <img class="card-back" src="images/bg-card-back.png" alt="bg-card-back">
+    </div>
+
+    <div class="direction">
+      <form action="#" autocomplete="off" method="post">
+        <label class="label" for="thename">CARDHOLDER NAME</label>
+        <input type="text" name="name" id="thename" placeholder="e.g. Jane Appleseed" required></input>
+        <label class="label" for="thenum">CARD NUMBER</label>
+        <input class="inputnumber" type="number" name="num" id="thenum" placeholder="e.g. 1234 5678 9123 0000" required>
+        <div class="alin">
+          <div class="column">
+            <label class="label" for="tnu">EXP. DATE (MM/YY)</label>
+            <div class="alinhar">
+              <input class="inputnu" type="number" name="nu" id="tnu" placeholder="MM" required></input>
+              <input class="inputnu" type="number" name="numbe" placeholder="YY"></input required>
+            </div>
+          </div>
+          <div class="column">
+            <label class="labelcvc" for="thecvc">CVC</label>
+                    <input class="numbercvc" type="number" name="cvc" id="thecvc" placeholder="e.g. 123" required></input>
+          </div>
+        </div>
+        <input type="button" value="Confirm"></input>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Completed state start -->
+
+  <div style="display: none;">
+    Thank you!
+    We've added your card details
+    Continue
+  </div>
+  
+
+  
+</body>
+</html>
