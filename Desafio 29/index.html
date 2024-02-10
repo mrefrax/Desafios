@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 29</title>
+</head>
+<body>
+    
+    <div id="container">
+
+<main>
+    
+                <header>
+                    <div class="container">
+                    <img class="logo" src="Assets/Logo.svg" alt="Logo">
+                     <nav>
+                        <button class="btn-products" onclick="btnProdu()">Products</button>
+                         <a href="#">Challanges</a>
+                          <a href="#">Resources</a>
+                           <a href="#">Other Links</a>
+                     </nav>
+                     <button class="sign">Sign in</button>
+                     <button class="btn-try-for">Try for free</button>
+                </div>
+                </header>  
+                           <div class="container">
+                               <div class="direction">
+                                   <h1 class="titu1">Ondeck is your remote</h1>
+                                    <h1 class="titu2">conference calling tool</h1>
+                                   
+                                                       <p class="para3">Ondeck is a service that allows you to create beautiful, online, and encrypted video calls for <br> you and your remote team.</p>
+                                                           <button class="btn-try">Try for free</button>
+                                                           <div class="container">
+                                    <p class="para3">5.0 Rating based on reviews from:</p>
+                                   
+                                    <img class="capterra" src="Assets/Capterra Logo.svg" alt="Capterra Logo">
+                                    <img src="Assets/AlternativeTo Logo.svg" alt="AlternativeTo Logo"></div>
+                               </div>
+                                                       <img class="imagem" src="Assets/Hero Image.png" alt="Hero Image">
+                           </div>
+    
+
+                    <p class="para5">Trusted by 3+ million people at companies like</p>
+
+            <div class="lo">
+                <img class="logos" src="Assets/Netflix Logo.svg" alt="Netflix Logo">
+                 <img class="logos" src="Assets/Shopify Logo.svg" alt="Shopify Logo">
+                  <img class="logos" src="Assets/Spotify Logo.svg" alt="Spotify Logo">
+                   <img class="logos" src="Assets/Walmart Logo.svg" alt="Walmart Logo">
+            </div>
+    
+</main>
+
+    </div>
+
+    <div id="produ">
+        <div class="alinhar">
+            <img class="icon" src="Assets/Spense_Icon.svg" alt="Spense_Icon">
+            <h4 class="ti">Spense</h4>
+        </div>
+        <p class="pa">Spense is landing page for writes. Great for practing absolute positioning and flex layouts.</p>
+
+        <div class="alinhar">
+            <img class="icon" src="Assets/Fiber_Icon.svg" alt="Fiber_Icon">
+            <h4 class="ti">Fiber Landing Page</h4>
+        </div>
+        <p class="pa">An online portfólio generator. Great to practice flex/grid layouts, and absolute positioning.</p>
+
+        <div class="alinhar">
+            <img class="icon" src="Assets/Gradie_Icon.svg" alt="Gradie_Icon">
+            <h4 class="ti">Gradie Sign Up Page</h4>
+        </div>
+        <p class="pa">Gradie is a simple sign up page, great to practice centering layouts.</p>
+    </div>
+
+    <script>
+        let btnP = document.getElementById('produ')
+
+        function btnProdu(){
+            if (btnP.style.display == 'block'){
+                btnP.style.display = 'none'
+            } else {
+                btnP.style.display == 'none'
+                btnP.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
