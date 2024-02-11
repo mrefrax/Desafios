@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="snap.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
   
@@ -27,8 +27,8 @@
   
     <!--Navegação para outras abas-->
         <nav>
-          <a class="fe" href="#">Features</a>
-          <a class="com" href="#">Company</a>
+          <button class="btn-features" onclick="btnFeatu()">Features</button>
+          <button class="btn-company" onclick="btnCompa()">Company</button>
           <a href="#">Careers</a>
           <a href="#">About</a>
            <a class="login" href="#">Login</a>
@@ -65,11 +65,53 @@
 
 </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-
-    Coded by <a href="https://github.com/mrefrax">Mr.efrax</a>.
+<div id="fea">
+  <div class="alinhar">
+    <img class="icon" src="images/icon-todo.svg" alt="icon-todo">
+    <p class="name">Todo List</p>
   </div>
+  <div class="alinhar">
+    <img class="icon" src="images/icon-calendar.svg" alt="icon-calendar">
+    <p class="name">Calender</p>
+  </div>
+  <div class="alinhar">
+    <img class="icon" src="images/icon-reminders.svg" alt="icon-reminders">
+    <p class="name">Reminders</p>
+  </div>
+  <div class="alinhar">
+    <img class="icon" src="images/icon-planning.svg" alt="icon-planning">
+    <p class="name">Planing</p>
+  </div>
+</div>
+
+<div id="comp">
+  <p class="name">History</p>
+  <p class="name">Our team</p>
+  <p class="name">Blog</p>
+</div>
+
+<script>
+  let btnFe = document.getElementById('fea')
+      let btnCo = document.getElementById('comp')
+
+  function btnFeatu(){
+    if (btnFe.style.display == 'block'){
+      btnFe.style.display = 'none'
+    } else{
+      btnFe.style.display == 'none'
+      btnFe.style.display = 'block'
+    }
+  }
+
+  function btnCompa(){
+    if (btnCo.style.display == 'block'){
+      btnCo.style.display = 'none'
+    } else{
+      btnCo.style.display == 'none'
+      btnCo.style.display = 'block'
+    }
+  }
+</script>
 
 </body>
 </html>
