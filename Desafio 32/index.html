@@ -36,11 +36,34 @@
         <h5>28 Jun 2020</h5>
       </div>
 
-      <img class="icon-share" src="images/icon-share.svg" alt="icon-share">
+      <button class="btn-share" onclick="btnS()"><img class="icon-share" src="images/icon-share.svg" alt="icon-share"></button>
       
         </div>
     </div>
 
     </div>
+
+    <div id="share-social">
+      <div class="alinhar">
+        <span class="sh">SHARE</span>
+        <img class="icon" src="images/icon-facebook.svg" alt="icon-facebook">
+        <img class="icon" src="images/icon-twitter.svg" alt="icon-twitter">
+        <img class="icon" src="images/icon-pinterest.svg" alt="icon-pinterest">
+      </div>
+    </div>
+
+    <script>
+      let btnShare = document.getElementById('share-social')
+
+      function btnS(){
+        if(btnShare.style.display == 'block'){
+          btnShare.style.display = 'none'
+        } else {
+          btnShare.style.display == 'none'
+          btnShare.style.display = 'block'
+        }
+      }
+    </script>
+
 </body>
 </html>

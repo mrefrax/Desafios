@@ -74,14 +74,40 @@ h5{
     font-size: 14px;
 }
 
-.icon-share{
-    margin-left: 255px;
-    background-color: hsl(217, 19%, 35%);
+#container .btn-share{
+    margin-left: 240px;
+    border-radius: 70px;
+    border: none;
     padding: 10px;
-    border-radius: 50px;
     cursor: pointer;
 }
 
-.icon-share:hover{
-    background-color: hsl(0, 00%, 100%);
+#share-social{
+    display: none;
+
+    background-color: hsl(217, 19%, 35%);
+    width: 210px;
+    padding: 15px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 64.4%;
+}
+
+#share-social .alinhar{
+    display: flex;
+    align-items: center;
+}
+
+#share-social .sh{
+    margin-left: 18px;
+    margin-right: 12px;
+
+    color: hsl(0, 0%, 77%);
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+#share-social .icon{
+    margin-right: 18px;
 }
