@@ -22,31 +22,9 @@
       <header>
         <img class="logo" src="images/logo.svg" alt="logo">
         <nav>
-          <a href="#">Product <img class="icon" src="images/icon-arrow-light.svg" alt="icon-arrow-light"></a>
-          <div style="display: none;">
-            Overview
-            Pricing
-            Marketplace
-            Features
-            Integrations
-          </div>
-          <a href="#">Company<img class="icon" src="images/icon-arrow-light.svg" alt="icon-arrow-light"></a>
-          <div style="display: none;">
-            About
-            Team
-            Blog
-            Careers
-          </div>
-          <a href="#">Connect<img class="icon" src="images/icon-arrow-light.svg" alt="icon-arrow-light">
-             <div style="display: none;">
-            Contact
-            Newsletter
-            LinkedIn
-          </div>
-            </a>
-          <div style="display: none;">
-            
-          </div>
+          <button class="btn-pr" type="button" onclick="btnProd()">Product <img class="icon" src="images/icon-arrow-light.svg" alt="icon-arrow-light"></button>
+          <button class="btn-co" type="button" onclick="btnCompa()">Company<img class="icon" src="images/icon-arrow-light.svg" alt="icon-arrow-light"></button>
+          <button class="btn-con" type="button" onclick="btnConnect()">Connect<img class="icon" src="images/icon-arrow-light.svg" alt="icon-arrow-light"></button>
         </nav>
     
         <button class="login">Login</button>
@@ -135,6 +113,59 @@
       </div>
     </footer>
 
+    <div id="produc">
+      <p class="info-produc">Overview</p>
+      <p class="info-produc">Pricing</p>
+      <p class="info-produc">Marketplace</p>
+      <p class="info-produc">Features</p>
+      <p class="info-produc">Integrations</p>
+    </div>
+
+    <div id="compan">
+      <p class="info-compan">About</p>
+      <p class="info-compan">Team</p>
+      <p class="info-compan">Blog</p>
+      <p class="info-compan">Careers</p>
+    </div>
+
+    <div id="conne">
+      <p class="info-conne">Contact</p>
+      <p class="info-conne">Newsletter</p>
+      <p class="info-conne">LinkedIn</p>
+    </div>
+
+    <script>
+      let btnPro = document.getElementById('produc')
+         let btnCom = document.getElementById('compan')
+      let btnConne = document.getElementById('conne')
+
+      function btnProd(){
+        if(btnPro.style.display == 'block'){
+          btnPro.style.display = 'none'
+        } else {
+          btnPro.style.display == 'none'
+          btnPro.style.display = 'block'
+        }
+      }
+
+      function btnCompa(){
+        if(btnCom.style.display == 'block'){
+          btnCom.style.display = 'none'
+        } else {
+          btnCom.style.display == 'none'
+          btnCom.style.display = 'block'
+        }
+      }
+
+      function btnConnect(){
+        if(btnConne.style.display == 'block'){
+          btnConne.style.display = 'none'
+        } else {
+          btnConne.style.display == 'none'
+          btnConne.style.display = 'block'
+        }
+      }
+    </script>
    
 </body>
 </html>

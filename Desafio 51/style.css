@@ -33,6 +33,46 @@ header{
     width: 70px;
 }
 
+#container .btn-pr{
+    background-color: transparent;
+    border: none;
+
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#container .btn-pr:hover{
+    text-decoration: underline;
+}
+
+#container .btn-co{
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#container .btn-co:hover{
+    text-decoration: underline;
+}
+
+#container .btn-con{
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#container .btn-con:hover{
+    text-decoration: underline;
+}
+
+
+
 nav > a {
     padding-top: 40px;
     padding: 15px;
@@ -325,6 +365,84 @@ span{
     cursor: pointer;
 }
 
-span:active{
+span:hover{
     text-decoration: underline;
+}
+
+#produc{
+    display: none;
+
+    background-color: hsl(0, 0%, 100%);
+    width: 120px;
+    height: 120px;
+    padding: 14px;
+    border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 18px hsla(208, 49%, 24%, 0.281);
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
+#produc .info-produc{
+    padding-bottom: 7px;
+    font-size: 14px;
+    color: hsl(207, 13%, 34%);
+}
+
+#produc .info-produc:hover{
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+}
+
+#compan{
+    display: none;
+
+    background-color: hsl(0, 0%, 100%);
+    width: 120px;
+    height: 90px;
+    padding: 14px;
+    border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 18px hsla(208, 49%, 24%, 0.281);
+    position: absolute;
+    top: 10%;
+    left: 16.7%;
+}
+
+#compan .info-compan{
+    padding-bottom: 9px;
+    font-size: 14px;
+    color: hsl(207, 13%, 34%);
+}
+
+#compan .info-compan:hover{
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+}
+
+#conne{
+    display: none;
+
+    background-color: hsl(0, 0%, 100%);
+    width: 120px;
+    height: 70px;
+    padding: 14px;
+    border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 0px 18px hsla(208, 49%, 24%, 0.281);
+    position: absolute;
+    top: 10%;
+    left: 21.8%;
+}
+
+#conne .info-conne{
+    padding-bottom: 9px;
+    font-size: 14px;
+    color: hsl(207, 13%, 34%);
+}
+
+#conne .info-conne:hover{
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
 }
