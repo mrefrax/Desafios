@@ -148,7 +148,7 @@ main{
     cursor: pointer;
 }
 
-.containe .align .level{
+.containe .align .leve{
     padding: 5px;
     border-radius: 4px;
     border: none;
@@ -157,7 +157,7 @@ main{
     color: hsl(180, 29%, 50%);
 }
 
-.containe .align .level:hover{
+.containe .align .leve:hover{
     background-color: hsl(180, 29%, 50%);
     color: hsl(0, 00%, 100%);
     cursor: pointer;
