@@ -2,18 +2,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
 #container{
     background-color: rgba(255, 255, 255, 0.795);
-    font-family: 'Inter', sans-serif;
     font-size: 18px;
-    width: 1800px;
+    width: 100%;
     margin: auto;
 }
 
-.navs{
+header{
     display: flex;
     align-items: center;
     background-color: hsl(0, 00%, 100%);
+    height: 70px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99999;
 }
 
 .logo{
@@ -29,7 +39,7 @@ a{
 
 .request-invite{
     margin-top: 10px;
-    margin-left: 430px;
+    margin-left: 790px;
     border: 0px;
     background-image:linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     padding: 10px;
@@ -45,18 +55,26 @@ a{
 .next-geration{
     display: flex;
     align-items: center;
+    height: 670px;
 
 }
 
 .titu{
-    color: hsl(233, 26%, 24%);
-    font-weight: 300;
+    width: 420px;
     margin-top: 170px;
     margin-left: 100px;
+    margin-bottom: 20px;
+
+    color: hsl(233, 26%, 24%);
+    font-weight: 300;
+    font-size: 3rem;
 }
 
 .para1{
+    width: 365px;
     margin-left: 100px;
+    margin-bottom: 20px;
+
     font-size: 14px;
     color: rgb(150, 150, 150);
 }
@@ -78,12 +96,16 @@ button{
 
 .image1{
     width: 900px;
-    transform: translate(500px, -0px);
+    position: absolute;
+    top: 0%;
+    left: 50%;
 }
 
 .image2{
-    width: 500px;
-    transform: translate(-200px, -0px);
+    width: 690px;
+    position: absolute;
+    top: 0%;
+    left: 60%;
 }
 
 .backgroundcolor{
@@ -100,29 +122,38 @@ button{
 .para2{
     margin-left: 100px;
     color: rgb(150, 150, 150);
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
-.container{
+.contain{
     display: flex;
     align-items: center;
+    margin-left: 0px;
 }
 
-.icon-online{
+.backgroundcolor .icon{
     margin-left: 100px;
+    width: 60px;
+    margin-bottom: 10px;
 }
 
-.icon{
+.backgroundcolor .ico{
     margin-left: 50px;
+    width: 60px;
+    margin-bottom: 10px;
 }
 
 .why{
     margin-left: 100px;
     color: hsl(233, 26%, 24%);
+    margin-bottom: 10px;
 }
 
 .why-choose{
     margin-left: 50px;
     color: hsl(233, 26%, 24%);
+    margin-bottom: 10px;
 }
 
 .para3{
@@ -136,34 +167,32 @@ button{
 }
 
 .subtitu2{
+    margin-top: 60px;
     margin-left: 100px;
+    margin-bottom: 70px;
     color: hsl(233, 26%, 24%);
     font-weight: 300;
 }
 
-.fundob{
+.containe{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.fundo{
     background-color: hsl(0, 00%, 100%);
-    width: 220px;
+    width: 270px;
+    height: 390px;
     margin-left: 100px;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 18px hsla(233, 26%, 24%, 0.185);
 }
 
-.image3{
-
-    width: 220px;
-    border-radius: 4px 4px 0px 0px;
-}
-
-.fundobr{
-    background-color: hsl(0, 00%, 100%);
-    width: 220px;
-    margin-left: 90px;
-    border-radius: 0px 0px 4px 4px;
-}
-
-.image4{
-    width: 220px;
-    border-radius: 4px 4px 0px 0px;
+.image{
+    width: 270px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .by-claire{
@@ -184,21 +213,24 @@ button{
     color: rgb(150, 150, 150);
 }
 
-.h5{
+.by{
     font-size: 11px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
     color: rgb(150, 150, 150);
 }
 
-.by{
+.h3{
     font-size: 16px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
     color: hsl(233, 26%, 24%)
 }
 
-.para8{
-    font-size: 12px;
-    margin-left: 10px;
+.par{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
     color: rgb(150, 150, 150);
 }
 
@@ -208,18 +240,49 @@ footer{
     margin-top: 70px;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin-left: 150px;
+}
+
+.container .column{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .logo2{
+    margin-right: 130px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(28%) hue-rotate(24deg) brightness(104%) contrast(108%);
+}
+
+.container .flex{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
 
 .icons{
     margin-left: 10px;
+    width: 20px;
 }
 
 p{
     margin-left: 70px;
-    margin-right: 70px;
+    margin-bottom: 20px;
+
     color: hsl(0, 00%, 100%);
 }
 
+.container button{
+    margin-left: 790px;
+    width: 150px;
+}
+
 .easybank{
-    color: rgb(150, 150, 150);
-    font-size: 11px;
+    margin-left: 720px;
+
+    color: rgb(185, 185, 185);
+    font-size: 14px;
 }
