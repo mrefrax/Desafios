@@ -24,32 +24,48 @@ body{
 }
 
 .our-pricing{
+    margin-bottom: 50px;
+
     color: hsl(233, 13%, 49%);
     font-size: 1.4rem;
     text-align: center;
 }
 
-.mandy{
-    margin-top: 20px;
+.annually{
+    margin-right: 20px;
+
+    color: hsl(234, 14%, 74%);
+}
+
+.am{
+    margin: auto;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
-.annually{
-    margin-left: 294px;
-    margin-right: 0px;
-    color: hsl(234, 14%, 74%);
-    margin-bottom: 50px;
+.a{
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    width: 56px;
+    height: 30px;
+    border-radius: 50px;
 }
 
-input[type = checkbox]{
-    width: 50px;
-    margin-bottom: 50px;
+.b{
+    background-color: hsl(0, 0%, 100%);
+    width: 20px;
+    height: 21px;
+    border-radius: 50px;
+    position: relative;
+    top: 4px;
+    left: 4px;
 }
 
 .monthly{
+    margin-left: 20px;
+
     color: hsl(234, 14%, 74%);
-    margin-bottom: 50px;
 }
 
 .align{
