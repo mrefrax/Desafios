@@ -28,6 +28,7 @@
 
 #container .alinhar .menu{
     width: 22px;
+    cursor: pointer;
 }
 
 #container .hero-Illustration{
