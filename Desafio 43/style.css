@@ -8,7 +8,7 @@ body{
 }
 
 #container{
-    width: 1900px;
+    width: 100%;
     margin: auto;
 }
 
@@ -19,9 +19,10 @@ header{
 }
 
 .logo{
-    margin-left: 140px;
-    margin-right: 640px;
+    margin-left: 70px;
+    margin-right: 790px;
     width: 130px;
+    margin-bottom: 0px;
 }
 
 nav > a {
@@ -63,22 +64,22 @@ nav > a:active{
 
 
 .bring{
-    margin-left: 140px;
+    margin-left: 70px;
     margin-bottom: 0;
     font-size: 2.7rem;
     color: hsl(228, 39%, 23%);
-    margin-right: 500px;
+    margin-right: 800px;
 }
 
 .manage{
-    margin-left: 140px;
+    margin-left: 70px;
     color: hsl(227, 12%, 61%);
 }
 
 .get{
     margin-top: 20px;
     width: 150px;
-    margin-left: 140px;
+    margin-left: 70px;
     padding: 15px;
     border: 0px;
     border-radius: 40px;
@@ -94,6 +95,10 @@ nav > a:active{
     box-shadow: 0px 2px 20px hsla(12, 88%, 59%, 0.555);
 }
 
+#container .illustration-intro{
+    margin-top: 140px;
+}
+
 .align2{
     display: flex;
     align-items: center;
@@ -102,7 +107,7 @@ nav > a:active{
 .column2{
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 140px;
     margin-left: 420px;
 }
 
@@ -112,13 +117,15 @@ nav > a:active{
 }
 
 .whats-different{
-    margin-left: 140px;
+    margin-left: 70px;
+    margin-right: 380px;
+
     color: hsl(228, 39%, 23%);
     font-size: 2.2rem;
 }
 
 .manage-provides{
-    margin-left: 140px;
+    margin-left: 70px;
     color: hsl(227, 12%, 61%);
 }
 
@@ -254,8 +261,9 @@ footer{
 
 .logo2{
     margin-top: 50px;
-    margin-left: 140px;
+    margin-left: 70px;
     width: 130px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(87deg) brightness(107%) contrast(101%);
 }
 
 .row{
@@ -265,7 +273,7 @@ footer{
 
 .icon{
     margin-top: 60px;
-    margin-left: 140px;
+    margin-left: 70px;
     margin-right: 7px;
 }
 
@@ -280,12 +288,14 @@ footer{
     margin-left: 100px;
     color: hsl(0, 0%, 98%);
     line-height: 2rem;
+    cursor: pointer;
 }
 
 .inf{
     margin-left: 100px;
     color: hsl(0, 0%, 98%);
     line-height: 2rem;
+    cursor: pointer;
 }
 
 
@@ -294,12 +304,14 @@ footer{
     margin-left: 190px;
     color: hsl(0, 0%, 98%);
     line-height: 2rem;
+    cursor: pointer;
 }
 
 .inf2{
     margin-left: 190px;
     color: hsl(0, 0%, 98%);
     line-height: 2rem;
+    cursor: pointer;
 }
 
 form{
