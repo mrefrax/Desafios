@@ -2,25 +2,32 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
 
-body{
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+#main{
+    width: 100%;
 }
 
 .container1{
     background-color: rgb(255, 240, 223);
-    width: 60vw;
+    height: 700px;
 }
 
 .container{
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 
 .para1{
     color: rgb(0, 110, 255);
     font-weight: bold;
-    margin-left: 120px;
-    margin-right: 510px;
+    margin-left: 70px;
+    margin-right: 1380px;
 }
 
 .para2{
@@ -28,10 +35,14 @@ body{
     color: rgb(68, 68, 68);
 }
 
+#main .alinhar{
+    display: flex;
+    align-items: center;
+}
+
 .para3{
-    text-align: center;
     background-color: rgb(61, 145, 255);
-    padding: 10px;
+    padding: 9px;
     color: hsl(0, 0%, 100%);
     border-radius: 5px;
     width: 200px;
@@ -39,17 +50,32 @@ body{
 }
 
 h1{
-    margin-left: 120px;
-    font-size: 2.4em;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 3.4em;
 }
 
 .para4{
+    margin-top: 20px;
     color: rgb(68, 68, 68);
-    margin-left: 120px;
+    margin-left: 70px;
+}
+
+#main .sig{
+    background-color: rgb(61, 145, 255);
+    padding: 9px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 
 a{
-    margin-left: 120px;
+    margin-left: 70px;
     text-decoration: none;
     color: rgb(0, 110, 255);
     font-weight: bold;
@@ -62,7 +88,7 @@ a::after{
 
 .afastar{
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 70px;
 }
 
 .avatars1{
@@ -98,35 +124,43 @@ a::after{
 }
 
 .imagem2{
-    width: 300px;
-    margin-left: 100px;
+    margin-top: 40px;
+    width: 340px;
+    margin-left: 770px;
 }
 
 #container2{
     background-color: hsl(0, 0%, 100%);
-    width: 60vw;
     margin-top: 45px;
 }
 
 .subtitu1{
-    margin-left: 120px;
+    margin-left: 70px;
 }
 
 .analytics{
     width: 500px;
     border: 1px solid rgb(173, 173, 173);
     border-radius: 5px;
-    margin-left: 120px;
-    margin-right: 30px;
+    padding: 20px;
+    margin-left: 340px;
+    margin-right: 50px;
+}
+
+#main .im{
+    margin-left: 17px;
+    margin-bottom: 10px;
 }
 
 .h3{
     margin-left: 15px;
+    margin-bottom: 7px;
 }
 
 .smart{
     width: 500px;
     border: 1px solid rgb(173, 173, 173);
+    padding: 20px;
     border-radius: 5px;
     margin-right: 30px;
 }
@@ -140,41 +174,60 @@ a::after{
     width: 500px;
     border: 1px solid rgb(173, 173, 173);
     border-radius: 5px;
+    padding: 20px;
     margin-top: 20px;
-    margin-left: 120px;
-    margin-right: 30px;
+    margin-left: 340px;
+    margin-right: 50px;
 }
 
 .dark{
     width: 500px;
     border: 1px solid rgb(173, 173, 173);
     margin-top: 20px;
+    padding: 20px;
     border-radius: 5px;
     margin-right: 30px;
 }
 
 #container{
     background-color: rgb(179, 244, 255);
-    width: 60vw;
-    margin-top: 45px;
+    margin-top: 100px;
 }
 
 .container3{
     background-color: white;
     width: 350px;
+    padding: 15px;
     margin-bottom: 20px;
     margin-left: 20px;
     border-radius: 5px;
 }
 
 .subtitu2{
-    margin-left: 120px;
+    margin-left: 70px;
     padding-top: 40px;
 }
 
+#main #container .contain{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    height: 350px;
+}
+
+#main .align{
+    display: flex;
+    align-items: center;
+}
+
+#main .align .direction{
+    display: flex;
+    flex-direction: column;
+}
+
 .subtitu3{
-    margin: 0px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 8px;
     font-size: 18px;
 }
 
@@ -183,7 +236,8 @@ a::after{
     color: rgb(170, 169, 169);
     font-weight: lighter;
     font-size: 14px;
-    margin-left: 5px;
+    margin-left: 8px;
+    margin-bottom: 10px;
 }
 
 .ttblue{
@@ -191,7 +245,9 @@ a::after{
 }
 
 .para6{
+    margin-top: 12px;
     margin-left: 10px;
+    width: 320px;
     color: rgb(68, 68, 68);
 }
 
@@ -209,12 +265,20 @@ a::after{
     color: rgb(68, 68, 68);
 }
 
+#conta2{
+    padding: 10px;
+}
+
 .subtitu4{
     padding-top: 45px;
+    margin-bottom: 10px;
+
     text-align: center;
 }
 
 .para9{
+    margin-bottom: 15px;
+
     text-align: center;
     color: rgb(68, 68, 68)
 }
@@ -222,6 +286,7 @@ a::after{
 .fundo{
     background-color: rgb(255, 249, 235);
     width: 450px;
+    padding: 10px;
     margin: auto;
     border: 1px solid rgb(255, 208, 89);
     border-radius: 5px;
@@ -246,9 +311,10 @@ a::after{
     color: rgb(68, 68, 68);
 }
 
-hr{
-    width: 350px;
+#main .line{
+    width: 100%;
     border-color: rgba(128, 128, 128, 0.37);
+    margin-top: 20px;
 }
 
 .check{
@@ -268,7 +334,14 @@ hr{
     border-radius: 5px;
     width: 330px;
     margin-left: 50px;
+    margin-bottom: 10px;
     cursor: pointer;
+}
+
+#contai{
+    background-color: rgb(179, 244, 255);
+    margin-top: 100px;
+    height: 50px;
 }
 
 .ttblack{
