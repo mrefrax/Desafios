@@ -2,16 +2,25 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
 
-body{
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 .container1{
     background-color: hsl(0, 0%, 100%);
-    width: 50vw;
-    box-shadow: 2px 0px 2px hsla(0, 0%, 50%, 0.555);
-    border-radius: 5px 5px 0px 0px;
-    margin: auto;
+    width: 100%;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.direction{
+    display: flex;
+    flex-direction: column;
 }
 
 .container2{
@@ -37,22 +46,39 @@ nav > a:hover{
 
 .titu1{
     margin-top: 80px;
+    margin-left: 100px;
+    width: 450px;
+
     color: rgb(27, 27, 128);
+    font-size: 3.5rem;
 }
 
 .para2{
+    margin-top: 15px;
+    margin-left: 100px;
+
     color: rgb(59, 59, 59);
 }
 
-.para3{
+.flex{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.btn-start-sc{
     margin-right: 28px;
     font-weight: bold;
     background-color: rgb(27, 27, 128);
     padding: 15px;
     width: 140px;
+    border-radius: 5px;
+    border: none;
+
     text-align: center;
     color: hsl(0, 0%, 100%);
-    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -71,82 +97,138 @@ nav > a:hover{
     font-weight: bold;
 }
 
-.para6{
+.backg{
+    background-color: rgb(79, 206, 245);
+    width: 600px;
+    height: 670px;
+    position: absolute;
+    top: 0%;
+    left: 68.4%;
+}
+
+.btn-start{
+    margin-top: 20px;
     margin-right: 28px;
     font-weight: bold;
     background-color: rgb(27, 27, 128);
     padding: 15px;
     width: 140px;
+    border-radius: 5px;
+    margin-left: 50%;
+    border: none;
+    margin-bottom: 50px;
+
     text-align: center;
     color: hsl(0, 0%, 100%);
-    border-radius: 5px;
     cursor: pointer;
-    margin-left: 67%;
 }
 
 .imagem3{
-    width: 400px;
-    margin-left: 50%;
+    width: 500px;
+    margin-left: 30px;
+    position: relative;
+
 }
 
-.subtitu1{
-    margin-left: 5px;
+.alinhar{
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.timeNow{
+    margin-left: 100px;
+    width: 340px;
     color: rgb(27, 27, 128);
 }
 
+.margin{
+    margin-left: 100px;
+}
 
 .Avatars{
+    margin-top: 50px;
     width: 40px;
     margin-left: 5px;
     margin-bottom: 30px;
 }
 
-.para7{
+.the-most{
     margin-left: 50px;
+
     color: rgb(44, 44, 44);
+    line-height: 1.5rem;
+}
+
+.they{
+    margin-left: 50px;
+    margin-top: 20px;
+
+    color: rgb(44, 44, 44);
+    line-height: 1.5rem;
 }
 
 #container{
-    background-image: linear-gradient(to right, #ffffff, #c2fafa, #c2fafa,#c2fafa) ;
-    width: 50vw;
-    box-shadow: 2px 0px 2px hsla(0, 0%, 50%, 0.397);
-    border-radius: 0px 0px 0px 0px;
-    margin: auto;
+    margin-top: 40px;
+    background-color: #c2fafa;
+    width: 100%;
+    height: 400px;
 }
 
 h4{
-    padding-top: 25px;
+    padding-top: 75px;
     margin-left: 1px;
+    margin-bottom: 10px;
+
     color: rgb(104, 104, 255);
 }
 
-.subtitu2{
-    color: rgb(13, 107, 95);
-    font-size: 1.8em;
+.customizable{
     margin-left: 1px;
+    width: 550px;
+    margin-bottom: 10px;
+
+    color: rgb(13, 107, 95);
+    font-size: 2.8em;
 }
 
-.para8{
+.use-twitter{
     color: rgb(44, 44, 44);
     margin-right: 30px;
 }
 
-.subtitu3{
-    color: rgb(13, 107, 95);
-    font-size: 1.8em;
-    margin-left: 20px;
+.enhanced{
+    padding-top: 75px;
+    margin-left: 570px;
+    margin-bottom: 10px;
+
+    color: rgb(104, 104, 255);
 }
 
-.para9{
-    margin-left: 20px;
+.subtitu3{
+    color: rgb(13, 107, 95);
+    font-size: 2.8em;
+    margin-left: 570px;
+}
+
+.get{
+    margin-top: 10px;
+    margin-left: 570px;
+    margin-bottom: 10px;
 }
 
 .link2{
+    margin-left: 570px;
+    margin-bottom: 50px;
+
     color: rgb(71, 71, 71);
     font-weight: bold;
     text-decoration: none;
-    margin-left: 15px;
-    margin-bottom: 50px;
 }
 
 .link2::after{
@@ -156,13 +238,12 @@ h4{
 
 .container3{
     background-color: hsl(0, 0%, 100%);
-    width: 50vw;
-    box-shadow: 2px 0px 2px hsla(0, 0%, 50%, 0.555);
-    border-radius: 0px 0px 5px 5px;
-    margin: auto;
+    width: 100%;
+    height: 200px;
 }
 
 .h4{
+    margin-top: 40px;
     margin-left: 5px;
     color: hsl(0, 0%, 0%);
 }
@@ -170,10 +251,19 @@ h4{
 .para10{
     margin-left: 5px;
     margin-right: 60px;
+
     color: rgb(71, 71, 71);
+    line-height: 1.5rem;
+}
+
+form{
+    margin-left: 920px;
 }
 
 .para11{
+    margin-top: 40px;
+    margin-bottom: 10px;
+
     font-weight: bold;
 }
 
