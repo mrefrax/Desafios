@@ -7,8 +7,7 @@ body{
 }
 
 main{
-    width: 1200px;
-    margin: auto;
+    width: 100%;
 }
 
 .container{
@@ -32,28 +31,77 @@ nav > a:hover{
     color: rgb(44, 44, 44);
 }
 
-.para1{
-    margin-left: 440px;
+.btn-start{
+    margin-left: 1340px;
     font-weight: bold;
     background-color: rgb(27, 27, 128);
     padding: 15px;
     width: 140px;
+    border-radius: 5px;
+    border: none;
+
     text-align: center;
     color: hsl(0, 0%, 100%);
-    border-radius: 5px;
     cursor: pointer;
 }
 
 .titu1{
-    margin-left: 275px;
+    text-align: center;
     font-size: 2.5em;
 }
 
-.para2{
+.our-plans{
+    width: 490px;
+    margin: auto;
+
     text-align: center;
     font-size: 14px;
-    margin-left: 275px;
     color: rgb(71, 71, 71);
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 777px;
+}
+
+.b-monthly{
+    margin-right: 13px;
+    
+    color: hsl(0, 1%, 36%);
+    font-weight: bold;
+}
+
+.blue{
+    width: 52px;
+    height: 25px;
+    background-color: hsl(214, 100%, 50%);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.white{
+    margin-top: 3px;
+    margin-left: 2px;
+    width: 19px;
+    height: 19px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.b-yearly{
+    margin-left: 13px;
+
+    color: hsl(0, 0%, 67%);
+    font-weight: bold;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+    margin-left: 390px;
 }
 
 .subscribe{
@@ -116,18 +164,31 @@ hr{
     margin-left: 30px;
 }
 
+.logo2{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
 .h4{
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 100px;
 }
 
 .para6{
     margin-left: 100px;
+    margin-bottom: 0px;
+    width: 90px;
+
     color: rgb(71, 71, 71);
 }
 
-.para7{
-    margin-left: 180px;
+.try-tweet{
+    margin-left: 25rem;
     font-weight: bold;
 
 }
@@ -137,16 +198,18 @@ input[type=email]{
     border-radius: 5px;
     border: 1px solid rgb(172, 172, 172);
     width: 250px;
-   margin-left: 180px;
+    margin-left: 25rem;
 }
 
 input[type=submit]{
-    transform: translate(-142px, 0px);
+    transform: translate(-255px, -46px);
     padding: 14px;
     border: 0px;
     background-color: rgb(27, 27, 128);
-    color: hsl(0, 0%, 100%);
     border-radius: 4px;
+    margin-left: 50rem;
+
+    color: hsl(0, 0%, 100%);
     font-weight: 550;
     cursor: pointer;
 }
