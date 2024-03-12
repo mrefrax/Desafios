@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="sneakers.css">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | E-commerce product page</title>
 
@@ -27,7 +27,7 @@
     <a href="#">Contact</a>
   </nav>
     
-   <img class="icon-cart" src="images/icon-cart.svg" alt="icon-cart">
+   <button class="btn-Cart" type="button" onclick="clickCart()"><img class="icon-cart" src="images/icon-cart.svg" alt="icon-cart"></button>
     <img class="image-avatar" src="images/image-avatar.png" alt="image-avatar">
     </div>
   <hr>
@@ -41,6 +41,9 @@
   <img class="image-product-1" src="images/image-product-1.jpg" alt="image-product-1">
 
       <div class="row">
+
+        <img class="img-thumb" src="images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail">
+
         <img class="image-product-2" src="images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail">
 
            <img class="image-product-2" src="images/image-product-3-thumbnail.jpg" alt="">
@@ -52,8 +55,8 @@
 
    <!--Informações do produto-->
 
-  <div class="col">
-    <span class="sneaker-company">Sneaker Company</span>
+  <div class="colu">
+    <span class="sneaker-company">SNEAKER COMPANY</span>
 
     <h1 class="fall-limited">Fall Limited Edition <br> Sneakers</h1>
 
@@ -77,11 +80,29 @@
    </div>
   </div>
 
+  <div id="cart-empty">
+    <h4 class="cart-ey">Cart</h4>
+    <hr class="line">
+
+    <p class="your-cart">Your cart is empty.</p>
+  </div>
+
   <script>
+
+    let btnCart = document.getElementById('cart-empty')
 
     function clickButton(){
       var button = window.document.getElementById('butt')
           button.innerText = 'added'
+    }
+
+    function clickCart(){
+      if (btnCart.style.display == 'block'){
+        btnCart.style.display = 'none'
+      } else {
+        btnCart.style.display == 'none'
+        btnCart.style.display = 'block'
+      }
     }
   </script>
 

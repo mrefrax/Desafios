@@ -2,19 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2? família= Kumbh+Sans:wght@400;700 & display=swap');
 
-body{
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
 }
 
 #container{
     background-color: hsl(0, 00%, 100%);
-    width: 1200px;
-    margin: auto;
+    width: 100%;
 }
 
 .align{
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .logo{
@@ -30,8 +32,13 @@ nav > a{
     font-size: 14px;
 }
 
+.btn-Cart{
+    margin-left: 1150px;
+    width: 50px;
+    background-color: transparent;
+}
+
 .icon-cart{
-    margin-left: 400px;
     width: 20px;
     cursor: pointer;
 }
@@ -41,11 +48,17 @@ nav > a{
     width: 40px;
 }
 
+.image-avatar:hover{
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
 hr{
     margin-top: 20px;
     margin-left: 70px;
     border-color: rgba(192, 192, 192, 0.123);
-    width: 990px;
+    width: 1775px;
 }
 
 .col{
@@ -56,7 +69,7 @@ hr{
 .image-product-1{
     margin-left: 100px;
     margin-top: 70px;
-    width: 400px;
+    width: 600px;
     border-radius: 10px;
 }
 
@@ -64,6 +77,15 @@ hr{
     display: flex;
     flex-direction: row;
     margin-left: 100px;
+}
+
+.img-thumb{
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 50px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .image-product-2{
@@ -74,20 +96,33 @@ hr{
     cursor: pointer;
 }
 
+.colu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
 
 .sneaker-company{
     margin-left: 50px;
+    margin-bottom: 14px;
+
     font-weight: bold;
+    font-size: 14px;
     color: hsl(26, 100%, 55%);
+    letter-spacing: 3px;
 }
 
 .fall-limited{
     margin-left: 50px;
+    font-size: 3.4rem;
 }
 
 .these-low-profile{
+    margin-top: 20px;
     margin-left: 50px;
+
     color: hsl(0, 0%, 50%);
+    line-height: 1.6rem;
 }
 
 .num{
@@ -98,11 +133,12 @@ hr{
 .number125{
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 50px;
 }
 
 .number50{
+    margin-top: 20px;
     margin-left: 15px;
     background-color: hsla(34, 91%, 49%, 0.164);
     padding: 4px;
@@ -151,4 +187,35 @@ button{
     width: 15px;
     margin-right: 7px;
     color: hsl(0, 00%, 100%);
+}
+
+#cart-empty{
+    display: none;
+
+    width: 350px;
+    height: 250px;
+    background-color: hsl(0, 00%, 100%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px hsla(0, 0%, 50%, 0.267);
+    position: absolute;
+    top: 7%;
+    left: 80%;
+}
+
+#cart-empty .cart-ey{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#cart-empty .line{
+    width: 349px;
+    margin-left: 0px;
+}
+
+#cart-empty .your-cart{
+    margin-top: 70px;
+
+    text-align: center;
+    font-weight: bold;
+    color: hsl(219, 9%, 45%);
 }
