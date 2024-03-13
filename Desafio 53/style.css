@@ -4,12 +4,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 #container{
-    width: 1440px;
-    margin: auto;
-    font-family: 'Rubik', sans-serif;
+    width: 100%;
 }
 
 header{
@@ -20,8 +19,8 @@ header{
 
 .logo{
     margin-left: 100px;
-    margin-right: 750px;
-    width: 100px;
+    margin-right: 1250px;
+    width: 120px;
 }
 
 nav > a {
@@ -70,11 +69,11 @@ nav .login:active{
 
 .a-simple{
     margin-left: 100px;
-    width: 340px;
+    width: 430px;
 
     font-weight: 500;
     color: hsl(229, 31%, 21%);
-    font-size: 2.2rem;
+    font-size: 2.8rem;
 }
 
 .a-clean{
@@ -83,6 +82,7 @@ nav .login:active{
     width: 400px;
 
     color: hsl(229, 8%, 60%);
+    line-height: 1.5rem;
 }
 
 .align{
@@ -134,11 +134,11 @@ nav .login:active{
 
 .backg{
     margin-top: 240px;
-    margin-left: 300px;
+    margin-left: 772px;
     background-color: hsl(231, 69%, 60%);
     border-radius: 500px 0px 0px 500px;
     height: 300px;
-    width: 900px;
+    width: 600px;
 }
 
 .illustration-hero{
@@ -171,7 +171,7 @@ nav .login:active{
     display: flex;
     align-items: center;
     margin-top: 40px;
-    margin-left: 450px;
+    justify-content: center;
 }
 
 .s{
@@ -188,7 +188,8 @@ nav .login:active{
 
 .line{
     margin-top: 30px;
-    width: 620px;
+    margin-left: 620px;
+    width: 600px;
 }
 
 .align{
@@ -216,10 +217,11 @@ nav .login:active{
 
 .bookmark{
     margin-left: 200px;
+    margin-bottom: 20px;
 
     color: hsl(229, 31%, 21%);
     font-weight: 500;
-    line-height: 4rem;
+    font-size: 2.2rem;
 }
 
 .organize{
@@ -227,12 +229,13 @@ nav .login:active{
     margin-left: 200px;
 
     color: hsl(229, 8%, 60%);
+    line-height: 1.5rem;
 }
 
 .more-info{
     margin-top: 20px;
     margin-left: 200px;
-    width: 90px;
+    width: 100px;
     padding: 11px;
     border-radius: 5px;
     border: 0px;
@@ -247,6 +250,7 @@ nav .login:active{
 
     text-align: center;
     font-weight: 500;
+    font-size: 1.5rem;
     color: hsl(229, 31%, 21%);
     line-height: 3rem;
 }
@@ -257,13 +261,14 @@ nav .login:active{
     
     text-align: center;
     color: hsl(229, 8%, 60%);
+    line-height: 1.6rem;
 }
 
 .base{
     margin-top: 60px;
-    margin-left: 400px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .contain{
@@ -347,8 +352,10 @@ nav .login:active{
 
 .frequently{
     margin-top: 100px;
+    margin-bottom: 15px;
 
     text-align: center;
+    font-size: 1.5rem;
     font-weight: 500;
     color: hsl(229, 31%, 21%);
 }
@@ -359,6 +366,7 @@ nav .login:active{
 
     text-align: center;
     color: hsl(229, 8%, 60%);
+    line-height: 1.6rem;
 }
 
 .quentions{
@@ -369,11 +377,10 @@ nav .login:active{
     padding: 50px;
     margin: auto;
     margin-bottom: 10px;
-    margin-left: 480px;
+    margin-left: 700px;
     color: hsl(229, 31%, 21%);
     font-weight: 500;
 }
-
 
 .close{
     background-color: rgb(255, 127, 127);
@@ -382,7 +389,7 @@ nav .login:active{
 .answer{
     display: none;
     width: 490px;
-    margin-left: 530px;
+    margin-left: 750px;
     margin-top: 20px;
 
     color: hsl(229, 8%, 60%);
