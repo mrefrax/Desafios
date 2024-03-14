@@ -7,9 +7,7 @@
 }
 
 #container{
-    width: 1440px;
-    height: 950px;
-    margin: auto;
+    width: 1840px;
     padding-left: 80px;
     background-color: rgb(247, 247, 247);
 }
@@ -22,7 +20,7 @@
 
 #container header .logo{
     width: 140px;
-    margin-right: 760px;
+    margin-right: 1160px;
 }
 
 #container header nav ul li{
@@ -125,9 +123,9 @@
 }
 
 #container .illustration{
-    margin-left: 270px;
+    margin-left: 370px;
     margin-top: 30px;
-    width: 380px;
+    width: 382px;
 }
 
 #container .column{
@@ -144,4 +142,5 @@
 
 #container .icon{
     padding-right: 9px;
+    margin-bottom: 50px;
 }
