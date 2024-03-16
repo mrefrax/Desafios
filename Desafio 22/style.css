@@ -2,9 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300 & display=swap');
 
-body{
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
-    width: 970px;
+}
+
+main{
+    width: 100%;
 }
 
 #container1{
@@ -13,7 +18,7 @@ body{
     background-size: cover;
     border-radius: 5px 5px 0px 0px;
     box-shadow: 2px 0px 5px rgb(202, 202, 202);
-    height: 583px;
+    height:653px;
 }
 
 .container2{
@@ -23,7 +28,7 @@ body{
 
 .logo{
     padding: 50px;
-    margin-right: 400px;
+    margin-right: 1380px;
 }
 
 .search{
@@ -36,30 +41,64 @@ body{
     font-size: 14px;
 }
 
-.para2{
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.get-started{
     background-color: black;
     width: 160px;
-    font-size: 14px;
     padding: 10px;
     border-radius: 4px;
+    border: none;
+
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.its{
+    margin-left: 4px;
+
+    color: hsl(0, 0%, 54%);
 }
 
 .titu1{
+    margin-bottom: 20px;
+
     text-align: center;
+    font-weight: bold;
+    font-size: 2.4rem;
 }
 
 .para3{
     text-align: center;
     color: rgb(54, 54, 54);
+    line-height: 1.5rem;
 }
 
 .posicionar1{
-    margin-left: 40%;
+    margin: 10px 0px;
+
     text-align: center;
 }
+
+.get-free{
+    background-color: black;
+    width: 160px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
 
 .para4{
     text-align: center;
@@ -67,14 +106,13 @@ body{
 }
 
 .imagem1{
-    width: 660px;
-    margin-top: 5px;
-    margin-left: 150px;
+    width: 820px;
+    margin-top: 50px;
+    margin-left: 540px;
 }
 
 .container3{
     background-color: hsl(0, 0%, 100%);
-    width: 970px;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 2px 2px 5px rgb(202, 202, 202);
 }
@@ -84,23 +122,51 @@ body{
     align-items: center;
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
 .titu2{
     margin-top: 80px;
-    margin-left: 15%;
+    margin-left: 10%;
+    width: 600px;
+
+    font-weight: bold;
+    line-height: 2.5rem;
 }
 
 .para5{
-    margin-left: 15%;
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 490px;
+
     color: rgb(54, 54, 54);
+    line-height: 1.5rem;
 }
 
 .posicionar2{
-    margin-left: 15%;
+    margin-left: 10%;
+}
+
+.get-it-free{
+    background-color: black;
+    width: 160px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 0px;
+
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 
 .imagem2{
-    width: 340px;
+    width: 360px;
     margin-top: 70px;
+    margin-left: 880px;
 }
 
 .container5{
