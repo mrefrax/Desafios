@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 20px;
+    width: 80px;
+    margin-right: 1400px;
+    margin-left: 50px;
+}
+
+.fe{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 1.0em;
+    cursor: pointer;
+    
+}
+
+.all{
+    display: flex;
+    align-items: center;
+}
+
+.direction{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+}
+
+.yours{
+    margin-left: 50px;
+    width: 750px;
+    margin-bottom: 15px;
+
+    color: hsl(243, 87%, 12%);
+    line-height: 3.7rem;
+    font-size: 3rem;
+}
+
+.fylo{
+    margin-left: 50px;
+    width: 520px;
+
+    color: hsl(243, 87%, 12%);
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    margin-top: 20px;
+    height: 30px;
+    width: 210px;
+    margin-left: 50px;
+}
+
+.ted{
+    margin-top: 20px;
+    background-color: hsl(224, 93%, 58%);
+    width: 170px;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 1%;
+    border: none;
+
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+.illu{
+    margin-top: 30px;
+    width: 700px;
+    margin-left: 200px;
+}
+
+.sla{
+    display: flex;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.stay-productive{
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 750px;
+    margin-bottom: 15px;
+
+    color: hsl(243, 87%, 12%);
+    line-height: 3.7rem;
+    font-size: 3rem;
+}
+
+.securely{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 520px;
+
+    color: hsl(243, 87%, 12%);
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.see{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(13, 117, 13);
+}
+
+a::after{
+    content: '🠺';
+}
+
+hr{
+    width: 157px;
+    margin-left: 50px;
+    border-color: #06c006;
+}
+
+.has{
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.274);
+    width: 400px;
+    height: 205px;
+    border-radius: 5px;
+}
+
+.im{
+    padding: 7%;
+    color: hsl(243, 87%, 12%);
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.conteu{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 6%;
+}
+
+.bur{
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.foun{
+    font-size: 0.6em;
+    margin-left: 5px;
+}
+
+.illustration-2{
+    width: 650px;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+}
+
+.get{
+    background-color: hsl(238, 22%, 44%);
+    margin-top: 4%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.flex-dire{
+    display: flex;
+    flex-direction: column;
+}
+
+.early{
+    color: #ffffff;
+    padding-top: 4%;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+.it{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    width: 420px;
+    font-size: 0.9em;
+    line-height: 1.3rem;
+}
+
+.email{
+    width: 330px;
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 850px;
+}
+
+.started{
+    margin-top: 20px;
+    background-color: hsl(224, 93%, 58%);
+    width: 170px;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 850px;
+    border: none;
+
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+.co{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    height: 250px;
+}
+
+.logo2{
+    margin-top: 40px;
+    width: 80px;
+    margin-right: 1400px;
+    margin-left: 50px;
+
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+footer > p {
+    margin-left: 40px;
+    color: #ffffff;
+    display: inline-block;
+    width: 190px;
+}
