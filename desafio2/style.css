@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    background-color: #ffffff;
+    width: 350px;
+    height: 640px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#container .image-product{
+    width: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#container .perfum{
+    margin-left: 20px;
+
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #cecdcd;
+    letter-spacing: 4px;
+   
+}
+
+#container .gabrielle{
+    margin-top: 20px;
+    width: 290px;
+    margin-left: 20px;
+
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    
+}
+
+#container .a-floral{
+    margin-top: 12px;
+    margin-left: 20px;
+    width: 300px;
+
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5rem
+
+}
+
+#container .flex{
+    display: flex;
+    align-items: center;
+}
+
+#container .flex .valor{
+    margin-top: 20px;
+    margin-left: 20px;
+
+    color: hsl(158, 36%, 37%);
+    font-weight: bolder;
+    font-size: 2em;
+    font-family: 'Fraunces', serif;
+}
+
+#container .flex .val{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    font-family: "Montserrat", sans-serif;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+#container .btn-add{
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color:hsl(158, 36%, 37%);
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    
+}
+
+#container span{
+    margin-bottom: 20px;
+}
+
+#container .alinhar{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+#container .icon-cart{
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
