@@ -3,13 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap');
 
 body{
-
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: rgb(227, 242, 252);
 }
 
-.dan{
+.alinhar{
+    display: flex;
+    align-items: center;
+}
 
+.dan{
     margin-left: 20%;
     background-color: hsl(263, 55%, 52%);
     background-image: url('bg-pattern-quotation.svg');
@@ -21,13 +24,11 @@ body{
 }
 
 #container{
-
     display: flex;
     align-items: center;
 }
 
 img{
-
     width: 40px;
     margin-top: 5px;
     margin-left: 20px;
@@ -37,89 +38,92 @@ img{
 }
 
 .niel{
-
-    
     margin: 0%;
+
     font-weight: bold;
     color: hsl(0, 0%, 100%);
 }
 
 .cli{
+    margin: 0%;
 
     color: hsl(0, 0%, 81%);
-    margin: 0%;
     font-size: 12px;
 }
 
 .rece{
+    margin-left: 20px;
 
     font-size: 20px;
-    margin-left: 20px;
     color: hsl(0, 0%, 100%);
 }
 
 .was{
+    margin-left: 20px;
 
     color: hsl(0, 0%, 56%);
     font-size: 13px;
-    margin-left: 20px;
 }
 
 .jo{
-
-    margin-left: 42%;
-    margin-top: 2%;
+    margin-left: 20px;
     background-color: hsl(217, 19%, 35%);
     width: 250px;
     height: 252px;
     border-radius: 10px;
 }
 
-.nette{
+.align{
+    display: flex;
+    align-items: center;
+}
 
-    margin-left: 30%;
-    margin-top: 2%;
+.nette{
+    margin-top: 20px;
+    margin-left: 20%;
     background-color: #ffffff;
     box-shadow: 2px 4px 7px rgba(220, 220, 220, 0.568);
     width: 270px;
-    height: 270px;
+    height: 233px;
     border-radius: 10px;
+    position: absolute;
+    top: 53%;
 }
 
 .jea{
-
     margin: 0%;
     color: hsl(0, 0%, 49%);
     font-weight: bold;
 }
 
 .an{
+    margin-left: 20px;
 
     color: hsl(217, 19%, 35%);
-    margin-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .than{
+    margin-left: 20px;
 
-     color: hsl(0, 0%, 41%);
-     margin-left: 20px;
+    color: hsl(0, 0%, 41%);
 }
 
 .patri{
-
-    margin-left: 24%;
-    margin-top: 2%;
+    margin-top: 20px;
+    margin-left: 20px; 
     background-color: hsl(219, 29%, 14%);
-    width: 498px;
+    width: 480px;
     border-radius: 10px;
-    height: 245px;
+    height: 233px;
+    position: absolute;
+    top: 53%;
+    left: 34.5%;
 }
 
 .kira{
-
-    margin-left: 35%;
-    margin-top: 2%;
+    margin-left: 20px;
+    margin-top: 13%;
     background-color: hsl(0, 0%, 100%);
     width: 240px;
     height: 500px;
@@ -128,15 +132,19 @@ img{
 }
 
 .whi{
-
     color: hsl(219, 29%, 14%);
     font-weight: bold;
     margin: 0%;
 }
 
 .such{
-
     color: hsl(219, 29%, 14%);
     font-size: 1.2em;
+    margin-left: 20px;
+}
+
+.before{
+    color: hsl(0, 0%, 56%);
+    font-size: 13px;
     margin-left: 20px;
 }
