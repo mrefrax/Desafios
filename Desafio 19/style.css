@@ -9,8 +9,8 @@ body{
 }
 
 .container{
-    background-color: rgb(70, 82, 87);
-    width: 385px;
+    background-color: rgb(58, 58, 58);
+    width: 375px;
     height: 720px;
     border-radius: 10px;
     margin: auto;
@@ -25,14 +25,17 @@ body{
 }
 
 .avatar1{
-    margin-right: 2em;
-    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 4rem;
+    margin-left: 30px;
     width: 110px;
 }
 
 .avatar2{
-    transform: translate(10px, 40px);
-
+    width: 165px;
+    margin-top: 50px;
+    position: absolute;
+    top: 5%;
 }
 
 .avatar3{
@@ -41,11 +44,12 @@ body{
 }
 
 .titu1{
-    font-size: 3em;
+    font-size: 2.8rem;
     margin-top: 0px;
     margin-left: 20px;
-    transform: translate(0px, -10px);
     color: hsl(160, 100%, 75%);
+    position: relative;
+    z-index: 99999;
 }
 
 p{
@@ -56,25 +60,34 @@ p{
 }
 
 .avatar4{
-    transform: translate(238px, 0px);
+    width: 165px;
+    margin-top: 50px;
+    margin-left: 200px;
 }
 
 
 .get{
     background-color: hsl(160, 100%, 75%);
-    width: 210px;
+    width: 250px;
     padding: 20px;
     border-radius: 5px;
+    border: none;
     margin-left: 20px;
+
     text-align: center;
     font-weight: bold;
+    font-size: 1.1rem;
     color: rgb(27, 36, 32);
-    transform: translate(0px, -150px);
+    position: absolute;
+    top: 46.5%;
+    left: 40%;
+    cursor: pointer;
 }
 
 #container{
     display: flex;
     align-items: center;
+    margin-top: 30px;
 }
 
 .twitter{
@@ -87,4 +100,5 @@ p{
     font-size: 16px;
     color: rgb(219, 219, 219);
     font-weight: lighter;
+    cursor: pointer;
 }
